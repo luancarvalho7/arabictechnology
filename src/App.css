@@ -1,0 +1,21 @@
+*{
+  margin:  0px;
+  padding: 0px;
+}
+:root {
+  color: #F7F7F7;
+  font-family: 'Inter', sans-serif;
+
+}
+
+body{
+  background-color: #020303;
+}
+.spacing{
+  max-width: 1080px;
+}
+.greenText{
+  background: linear-gradient(90deg, rgba(0,253,194,1) 0%, rgba(0,236,133,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
