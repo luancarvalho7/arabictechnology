@@ -3,6 +3,8 @@ import { Hero } from './components/hero/hero'
 import { Cta } from './components/cta/cta'
 import { Proof } from './components/proof/proof'
 import { Benefits } from './components/Benefits/benefits'
+import { Method } from './components/method/method'
+import { Bonus } from './components/bonus/bonus'
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
      <Cta />
      <Proof/>
      <Benefits/>
-     
+     <Method/>
+     <Bonus/>
     </>
   )
 }

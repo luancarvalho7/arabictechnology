@@ -1,0 +1,66 @@
+#method {
+    margin-top: 64px
+}
+
+.mCard {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 12px;
+    background: #060708;
+    width: 303px;
+    height: auto;
+    box-sizing: border-box;
+    gap: 6px;
+}
+
+.mCard h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mCard h1 {
+    color: #F7F7F7;
+    font-size: 22px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.methodContent{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.Card-hl{
+    
+    transform: scale(1.1);
+    position: relative;
+}
+.Card-hl::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+@media (max-width:1080px){
+    .methodContent{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Card-hl{
+    
+        transform: none;
+        position: relative;
+    }
+}

@@ -1,0 +1,41 @@
+#bonus {
+    margin-top: 64px;
+}
+
+#bonusText {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+#bonusContent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+#bonusPicture {
+    background-image: url("../../assets/bonus.webp");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 894px;
+    height: 504px;
+    max-height: 504px;
+}
+
+#bonusContent .cta {
+    bottom: 100px;
+
+}
+
+@media (max-width: 1080px){
+    #bonusPicture{
+        width: 100%;
+        height: 80vw;
+    }
+    #bonusContent .cta{
+        bottom: 90px;
+    }
+}
