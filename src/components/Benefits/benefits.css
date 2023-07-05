@@ -1,0 +1,47 @@
+.bnft {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 6px 6px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(62, 72, 89, 0.60);
+    gap: 8px;
+}
+
+.bnft img{
+    width: 25px;
+    height: 25px;
+}
+.bt-Title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+.bt-P{
+    color: #B5B5B5;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+#benefitsText{
+    justify-content: start;
+}
+
+#benefitsContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#benefits{
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+@media ( max-width: 900px ){
+    #benefits{
+        display: flex;
+        flex-direction: column;
+    }
+}

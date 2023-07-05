@@ -1,0 +1,117 @@
+.ctaSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cta {
+    width: 100%;
+    height: fit-content;
+    padding: 50px 75px;
+    border-radius: 10px;
+    background-color: #060708;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+    justify-content: space-between;
+
+}
+
+.cta p {
+    width: 32.18%;
+}
+
+.cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.cta-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px
+}
+
+.cta-separator {
+    height: 122px;
+    width: 2px;
+    background-color: #E6E6E6;
+}
+
+.cp-hl {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.cp-hl h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.cp-hl h3 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+
+@media (max-width: 900px) {
+
+    .cta p {
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .cta {
+        flex-direction: column;
+        border-radius: 10px;
+        background: radial-gradient(169.97% 109.33% at 0.90% 1.09%, #262E2F 0%, rgba(0, 0, 0, 0.00) 100%), #060708;
+        ;
+    }
+    .cta::before {
+  display: none;
+    }
+
+    .cta-separator {
+        display: none;
+    }
+
+
+    .cp-hl {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .cp-hl h1 {
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    .cp-hl h3 {
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+    }
+}
