@@ -6,6 +6,7 @@ import { Benefits } from "./components/Benefits/benefits";
 import { Method } from "./components/method/method";
 import { Bonus } from "./components/bonus/bonus";
 import { Guarantee } from "./components/guarantee/guarantee";
+import { Qa } from "./components/qa/qa";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Method />
       <Bonus />
       <Guarantee />
+      <Qa />
     </>
   );
 }
