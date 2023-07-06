@@ -11,15 +11,14 @@ export function QCard({ question, answer }) {
     }
   }
   return (
-    <div className="Qcard" style={{ gap: cardStatus == 0 ? "0px" : "12px" }}>
+    <div className="Qcard" style={{ gap: cardStatus == 0 ? "0px" : "12px" }} onClick={handleAnswer}>
       <h3>{question}</h3>
-      <button className="arrowBtn" onClick={handleAnswer}>
-        {" "}
+      <button className="arrowBtn" style={{transform: cardStatus ==0 ? "" : "rotate(180deg)"}}>
       </button>
       <p
         className="txtP"
         style={{
-          height: cardStatus == 0 ? "0px" : "84px",
+          height: cardStatus == 0 ? "0px" : "fit-content",
           marginTop: cardStatus == 0 ? "0px" : "12px",
         }}
       >

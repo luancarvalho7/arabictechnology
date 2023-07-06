@@ -1,13 +1,14 @@
 #qa {
-  margin-top: 64px;
+  margin-top: 84px;
 }
 .Qcard {
-  padding: 20px;
+  padding: 20px 35px 20px 20px;
   border-radius: 4px;
   border: 1px solid #333;
   position: relative;
   display: flex;
-  gap: 6px;
+  gap: 8px;
+  cursor: pointer;
   flex-direction: column;
 }
 
@@ -28,6 +29,7 @@
   height: auto;
 }
 .arrowBtn {
+  transition: all .25s;
   cursor: pointer;
   position: absolute;
   top: 20px;
@@ -37,4 +39,12 @@
   height: 20px;
   background-color: transparent;
   background-image: url("../../assets/svgs/arrow.svg");
+}
+
+#qaContent{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }

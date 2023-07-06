@@ -2,25 +2,29 @@ import "./cta.css"
 import { Button } from "./button/button"
 import React, { useState, useEffect } from 'react';
 
-export function Cta() {
+export function Cta({mobilePrice}) {
     const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const checkMobile = () => {
-            setIsMobile(window.innerWidth < 900);
-        };
+    if(mobilePrice == false){
 
-        // Initial check
-        checkMobile();
-
-        // Event listener for window resize
-        window.addEventListener('resize', checkMobile);
-
-        // Clean up event listener
-        return () => {
-            window.removeEventListener('resize', checkMobile);
-        }
-    }, []);
+        useEffect(() => {
+            const checkMobile = () => {
+                setIsMobile(window.innerWidth < 900);
+            };
+    
+            // Initial check
+            checkMobile();
+    
+            // Event listener for window resize
+            window.addEventListener('resize', checkMobile);
+    
+            // Clean up event listener
+            return () => {
+                window.removeEventListener('resize', checkMobile);
+            }
+        }, []);
+    }
+   
 
     return (
         <section className={`ctaSection ${isMobile ? "" : "spacing"}`}>

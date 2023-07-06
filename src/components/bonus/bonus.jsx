@@ -13,7 +13,7 @@ export function Bonus() {
             <div id="bonusContent">
                 <div id="bonusPicture">
                 </div>
-                <Cta/>
+                <Cta mobilePrice={true}/>
             </div>
         </section>
     )
