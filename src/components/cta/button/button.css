@@ -14,7 +14,8 @@
     cursor: pointer;
     background: var(--new-gepete, linear-gradient(128deg, #00FDC2 0%, #00EC85 100%));
     filter: drop-shadow(0px 0px 17px rgba(0, 253, 194, .3));
-
+    text-decoration: none;
+    transition: all .5s;
 }
 
 .perfectButton::before{
@@ -28,6 +29,12 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     pointer-events: none;
+}
+
+.perfectButton:hover{
+
+    filter: drop-shadow(0px 0px 17px rgba(0, 253, 194, .5));
+
 }
 @media (max-width: 1080px){
     .perfectButton{

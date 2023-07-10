@@ -57,12 +57,6 @@ export function Qa() {
             answer={current.answer}/>
           )
         }
-        <QCard
-          question={"Quais são as formas de pagamento?"}
-          answer={
-            "Assim que a sua compra for confirmada, você receberá um e-mail com o seu acesso ao Ebook. Os pagamentos realizados por boleto, podem demorar até 2 dias úteis para serem confirmados."
-          }
-        />
       </div>
 
       <Button />

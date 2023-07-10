@@ -1,8 +1,9 @@
 import "./guarantee.css";
+import gSvg from "../../../src/assets/svgs/guarantee.svg"
 export function Guarantee() {
   return (
     <section id="guarantee" className="spacing">
-      <img src="../../../src/assets/svgs/guarantee.svg" id="iconGuarantee" />
+      <img src={gSvg} id="iconGuarantee" />
       <h3 className="sectionMinTitle greenText">GARANTIA</h3>
       <h1 className="sectionMText">Risco Zero</h1>
       <p className="txtP">
