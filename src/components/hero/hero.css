@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-#vslVideo{
+.vslVideo{
     width: 900px; 
     height:506.6px;
 }
@@ -50,7 +50,7 @@
     #hero{
         overflow: hidden;
     }
-    #vslVideo{
+    .vslVideo{
         width: 100vw;
         height:56.29vw;
         box-sizing: border-box;

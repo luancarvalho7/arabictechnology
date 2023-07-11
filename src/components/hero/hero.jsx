@@ -16,8 +16,7 @@ export function Hero() {
                     style={{ border: 'none' }}
                     allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture"
                     allowFullScreen={true}
-                    width="720"
-                    height="360"
+                    className="vslVideo"
                 />
             </div>
         </header>
