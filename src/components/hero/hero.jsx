@@ -6,7 +6,7 @@ export function Hero() {
             <div id="heroContent" className="spacing">
                 <div id="title">
                     <h1 id='headline'>Como a “Era da IA” pode <br />
-                        te deixar a frente de<br />
+                        te deixar à frente de<br />
                         <span className='greenText'> 99% das pessoas </span></h1>
                     <h3 id='subtitle'>Mesmo que você nem saiba o que isso significa</h3>
                 </div>

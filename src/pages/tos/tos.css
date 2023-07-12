@@ -1,0 +1,58 @@
+#tosPage a{
+    text-align: center;
+}
+
+#tosPage{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tosHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+#tosHeading *{
+    text-align: center;
+}
+#tosHeading h1{
+    font-size: 40px;
+}
+
+#tosHeading h3{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#tosLogo{
+    width: 64px;
+    height: 64px;
+}
+
+#tosContent {
+    max-width: 1080px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    width: 90vw;
+    background-color: #060708;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.tosTopic{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.tosTopic h1 {
+    font-size: 28px;
+}

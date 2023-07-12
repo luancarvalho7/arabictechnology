@@ -27,8 +27,8 @@ export function Qa() {
     },
     {
       id: 5,
-      question: "O ebook serve pare pessoas avançadas?",
-      answer: "Sim! O ebook oferece estratégias e técnicas raras que podem ajudar até os mais experientes com ChatGPT e IA a elevarem o seu nível de conhecimento, produtividade e eficiência, Sem contar os prompts bônus e os jailbreaks exclusivos!"
+      question: "O ebook serve pare pessoas com conhecimentos avançados?",
+      answer: "Sim! O ebook oferece estratégias e técnicas raras que podem ajudar até os mais experientes com ChatGPT e IA a elevarem o seu nível de conhecimento, produtividade e eficiência, sem contar os prompts bônus e os jailbreaks exclusivos!"
     },
     {
       id: 6,

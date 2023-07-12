@@ -2,5 +2,47 @@ footer {
     height: 500px;
     width: 100%;
     margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background: linear-gradient(360deg, #00FCBF 0%, #072723 54.20%, rgba(0, 6, 18, 0.00) 80.57%);
+}
+
+#fContent{
+    gap: 12px;
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 15vw;
+    border-radius: 48px 48px 0px 0px;
+}
+
+#footerLogo{
+    width: 48px;
+    height: 48px;
+}
+.fMain {
+    display: flex;
+    gap: 12px;
+}
+
+.fMain a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.fAdvice p {
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .fMain {
+        display: flex;
+        flex-direction: column;
+
+    }
 }

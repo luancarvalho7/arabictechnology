@@ -34,7 +34,7 @@ export function Cta({mobilePrice}) {
                 <div className='cta-price'>
                     <div className="cp-hl" style={{ display: isMobile ? 'none' : 'flex' }}>
                         <h3>Por apenas 6x de</h3>
-                        <h1>R$12,80</h1>
+                        <h1>R$14,21</h1>
                     </div>
                     <Button />
                 </div>

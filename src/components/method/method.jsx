@@ -6,7 +6,7 @@ export function Method() {
         {
             id: 1,
             title: "Primeiro Contato",
-            text: "Você vai conhecer o ChatGPT, a ferramenta que está revolucionando nosso mundo. Mesmo que Inteligência Artificial pareça complexa, aqui o complexo vai parecer simples. Você aprenderá a criar diálogos, fazer perguntas e usar o ChatGPT corretamente. Este é seu primeiro passo para se tornar um mestre da IA."
+            text: "Você vai conhecer o ChatGPT, a ferramenta que está revolucionando nosso mundo. Mesmo que a Inteligência Artificial pareça complexa, aqui, o complexo vai parecer simples. Você aprenderá a criar diálogos, fazer perguntas e usar o ChatGPT corretamente. Este é seu primeiro passo para se tornar um mestre da IA."
         },
         {
             id: 2,
@@ -16,7 +16,7 @@ export function Method() {
         {
             id: 3,
             title: "1%",
-            text: "Aqui é onde o ouro realmente está, você vai ficar por dentro do que apenas 1% dos usuários de Inteligência Artificial sabem. Para encontrar esses segredos foi necessário mais de um SEMESTRE vasculhando todos os cantos da internet. Apenas as técnicas mais avançadas e os mínimos detalhes que realmente funcionam se estão aqui."
+            text: "Aqui é onde o ouro realmente está. Você vai ficar por dentro do que apenas 1% dos usuários de Inteligência Artificial sabem. Para encontrar esses segredos foi necessário mais de um SEMESTRE vasculhando todos os cantos da internet. Apenas as técnicas mais avançadas e os mínimos detalhes que realmente funcionam estão aqui."
         }
 
     ]

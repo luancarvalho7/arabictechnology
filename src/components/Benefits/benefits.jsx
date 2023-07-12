@@ -10,7 +10,7 @@ export function Benefits() {
             <div id="benefitsText" className="sectionHeader">
                 <h3 className="sectionMinTitle greenText">VANTAGENS</h3>
                 <h1 className="sectionMText">Benefícios</h1>
-                <p className="txtP">A Inteligência Artificial está evoluindo em uma velocidade nunca antes vista. Este é o momento de ouro, a sua chance dominá-la é agora, mas pode não durar por muito tempo...</p>
+                <p className="txtP">A Inteligência Artificial está evoluindo a uma velocidade nunca antes vista. Este é o momento de ouro. A sua chance de dominá-la é agora, mas pode não durar por muito tempo...</p>
             </div>
             <div id="benefitsContent">
                 {data.map(current => <Bnft
