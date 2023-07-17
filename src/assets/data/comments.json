@@ -1,0 +1,191 @@
+[
+    {
+        "cmntPfp": "https://i.imgur.com/2ODrM57.png",
+        "cmntName": "João Gabriel Barbosa",
+        "cmntText": "Esse vídeo é de utilidade pública, todo mundo deveria assistir",
+        "cmntTime": "4 sem",
+        "cmntAnswers": [
+            {
+                "awPfp": "https://i.imgur.com/xJgqcXr.png",
+                "awName": "Maria Clara",
+                "awText": "Cara, esse negócio faz muito sentido! Não botei fé no começo até testar e realmente dá bom...",
+                "awTime": "2 d"
+            }
+        ]
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/u8f85M5.png",
+        "cmntName": "Rafael Costa",
+        "cmntText": "Não acredito que fiquei desde o início do ano usando IA errado. Faz só uma semana e estou conseguindo mandar o ChatGPT fazer coisas que eu nem sabia que tinha como.",
+        "cmntTime": "1 sem",
+        "cmntAnswers": [
+            {
+                "awPfp": "https://i.imgur.com/1qqPrjw.png",
+                "awName": "Ana Clara Mendes",
+                "awText": "Só com esse vídeo já deu pra aprender demais, já vou testar algumas coisas amanhã mesmo no meu serviço.",
+                "awTime": "3 d"
+            }
+        ]
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/OCeYCnj.png",
+        "cmntName": "Alexandre Santos",
+        "cmntText": "PQP, essa dica que ele deu sobre os conteúdos dos gringos, incrível. Que conteúdo foda, irmão.",
+        "cmntTime": "1 sem",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/WEuHiY7.png",
+        "cmntName": "Juliana Oliveira",
+        "cmntText": "Simplesmente obrigada, estou tendo tempo para as coisas que realmente gosto de fazer.",
+        "cmntTime": "2 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/9cRe3gy.png",
+        "cmntName": "Carlos Oliveira",
+        "cmntText": "Depois desse vídeo minha visão sobre o futuro mudou totalmente! A inteligência artificial está muito à frente do que eu pensava.",
+        "cmntTime": "1 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/TBXvzx2.png",
+        "cmntName": "Pedro Silva",
+        "cmntText": "Muito obrigado, mano! Se eu soubesse disso desde o início do ano, eu já estaria andando de Porsche haha!",
+        "cmntTime": "3 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/zMLg8hy.png",
+        "cmntName": "Fernando Almeida",
+        "cmntText": "Isso é de outro nível, nunca tinha reparado nisso! Quem aplicar isso vai dar muito bom.",
+        "cmntTime": "3 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/oO33jSW.png",
+        "cmntName": "Lucas Santos",
+        "cmntText": "Inacreditável! Tava há mais de um mês sem tempo pra nada, com a vida toda desorganizada. Hoje o ChatGPT está resolvendo tudo pra mim e tô com tempo pra curtir do meu jeito kkk.",
+        "cmntTime": "2 sem",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/92eCTza.png",
+        "cmntName": "Gustavo Souza",
+        "cmntText": "Passando só pra agradecer! nunca tive tanto tempo livre pra passar com meus filhos.",
+        "cmntTime": "1 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/lzVhTIB.png",
+        "cmntName": "Rodrigo Oliveira",
+        "cmntText": "Quem comprou aí chegou de boa? Não deu problema?",
+        "cmntTime": "3 d",
+        "cmntAnswers": [
+            {
+                "awPfp": "https://i.imgur.com/4HAZt9j.png",
+                "awName": "Maah",
+                "awText": "Comprei e funcionou, muito obrigada! Automatizei um setor inteiro da minha empresa só com ajuda do GPT;",
+                "awTime": "2 d"
+                
+            },
+            {
+                "awPfp": "https://i.imgur.com/27Gropv.png",
+                "awName": "Larissa Costa",
+                "awText": "Só digo uma coisa, podem ir sem medo! Realmente dá frutos e muito. O futuro vai ser só isso.",
+                "awTime": "5 h"
+            },
+            {
+                "awPfp": "https://i.imgur.com/I1aYGqu.png",
+                "awName": "Ricardo Santos",
+                "awText": "Estou muito satisfeito com todo conteúdo do Ebook. Vâo sem medo!",
+                "awTime": "3 h"
+            }
+        ]
+    },
+
+    {
+        "cmntPfp": "https://i.imgur.com/OKh2r6g.png",
+        "cmntName": "Carolina Costa",
+        "cmntText": "Esse vídeo me abriu os olhos para novas possibilidades! Já estou aplicando as estratégias e vendo resultados.",
+        "cmntTime": "2 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/iOvYGS1.png",
+        "cmntName": "Teteu Matias",
+        "cmntText": "Estou impressionado com o quanto a inteligência artificial está avançada, o futuro pode até ser assustador, mas eu vou estar preparado.",
+        "cmntTime": "3 d",
+        "cmntAnswers": [
+            {
+                "awPfp": "https://i.imgur.com/h2n26QT.png",
+                "awName": "Amanda Almeida",
+                "awText": "Eu nunca pensei que uma simples ferramenta podia automatizar tantas coisas. Obrigado por compartilhar!",
+                "awTime": "1 d"
+            }
+        ]
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/c6SPv34.png",
+        "cmntName": "Gabriel Silva",
+        "cmntText": "Esse vídeo me fez repensar muito sobre o futuro. Com certeza não vou ficar de fora da Era da IA",
+        "cmntTime": "6 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/kvmKcWG.png",
+        "cmntName": "Camila Oliveira",
+        "cmntText": "Desde que assisti esse vídeo, só consigo pensar no tempo livre que eu vou ter para curtir com minha morena kkkk. Obrigado!",
+        "cmntTime": "3 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/f4JZTDD.png",
+        "cmntName": "Renato Oliveira",
+        "cmntText": "Fiquei fascinado com as possibilidades que o Chat-GPT pode oferecer. Mal posso esperar para explorar mais!",
+        "cmntTime": "2 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/gAk9AA7.png",
+        "cmntName": "Laura Santos",
+        "cmntText": "Obrigada por compartilhar esse conteúdo valioso. Estou testar na prática!",
+        "cmntTime": "5 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/VwUOBrd.png",
+        "cmntName": "Gustavo Mendes",
+        "cmntText": "Nunca imaginei que a inteligência artificial pudesse impactar tanto nossas vidas. Impressionante!",
+        "cmntTime": "3 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/pRkiKxE.png",
+        "cmntName": "Jéferson Costa",
+        "cmntText": "Esse vídeo trouxe uma nova perspectiva sobre como a IA pode revolucionar o mundo. Muito interessante!",
+        "cmntTime": "2 h",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/dSecqRN.png",
+        "cmntName": "Luciana Almeida",
+        "cmntText": "Fiquei inspirada por esse vídeo. Agora estou determinada a estudar mais sobre inteligência artificial!",
+        "cmntTime": "3 d",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/E6B1cju.png",
+        "cmntName": "Isabela Oliveira",
+        "cmntText": "Realmente a IA é o futuro. Estou super empolgada para explorar suas aplicações!",
+        "cmntTime": "1 sem",
+        "cmntAnswers": []
+    },
+    {
+        "cmntPfp": "https://i.imgur.com/e2MfmhZ.png",
+        "cmntName": "Renan Santos",
+        "cmntText": "A IA está transformando o mundo ao nosso redor. Ainda bem que eu vou fazer parte dessa revolução!",
+        "cmntTime": "2 h",
+        "cmntAnswers": []
+    }
+]

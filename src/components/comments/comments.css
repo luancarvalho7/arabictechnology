@@ -1,0 +1,111 @@
+#comments {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #FBFBFB;
+    color: #1C1E21;
+    padding-top: 45px;
+}
+
+.fc-heading {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+/* Comment Component */
+
+.blue-fb {
+    color: #385898;
+}
+
+.clickable-fb {
+    cursor: pointer;
+}
+
+.clickable-fb:hover {
+    text-decoration: underline;
+}
+
+
+.cmntWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    border-top: solid 1px #e3e3e3;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.mainCmnt {
+    display: flex;
+    gap: 10px;
+}
+
+.mc-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fb-name {
+    font-size: 16px;
+    margin-bottom: 2px;
+    display: flex;
+    width: fit-content;
+}
+
+.fb-cmnt {
+    font-size: 15px;
+}
+
+.fb-c-info {
+    display: flex;
+    gap: 4px;
+}
+
+.fbci-stylish {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fbci-time {
+    color: #9B9B9B;
+}
+
+.cmntPfp{
+    width: 46px;
+    height: 46px;
+}
+
+.cmntAnswers {
+
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.canswr {
+    border-left: solid 1px #e3e3e3;
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.canswr img {
+    width: 42px;
+    height: 42px;
+}
+
+.cmntsAdvice{
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+@media (max-width: 900px){
+    .cmntAnswers{
+        margin-left: 35px;
+    }
+    .fb-cmnt{
+        font-size: 14px;
+    }
+
+}

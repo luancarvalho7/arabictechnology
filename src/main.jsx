@@ -7,6 +7,7 @@ import { Tos } from './pages/tos/tos.jsx';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Privacidade } from './pages/tos/privacidade.jsx';
+import { Delayed } from './pages/delayed/delayed.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />
+        element: <Delayed/>
+      },
+      {
+        path: "guiachatgpt",
+        element: <Home/>
       },
       {
         path: "tos",

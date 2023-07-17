@@ -14,7 +14,6 @@ const icons = [
 
 export function Bnft({id, icon, title, text}) {
 
-    console.log(id)
 
     return (
         <div className="bnft">
