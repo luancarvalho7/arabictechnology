@@ -9,7 +9,6 @@ import { Qa } from "../../components/qa/qa"
 import { Footer } from "../../components/footer/footer"
 
 import React, { useState, useEffect } from 'react';
-import { Comments } from "../../components/comments/comments"
 
 export function Delayed() {
 
@@ -19,7 +18,8 @@ export function Delayed() {
         console.log(isLoaded)
         const timer = setTimeout(() => {
             setIsLoaded(true);
-        }, 187200);
+            localStorage.setItem('ctaShown', 'true');
+        }, 480000);
         console.log(isLoaded)
 
         return () => clearTimeout(timer);
@@ -28,7 +28,7 @@ export function Delayed() {
         <>
             <Hero />
             
-            {isLoaded && (
+            {(isLoaded || localStorage.getItem('ctaShown') === 'true') && (
                 <>
                     <Cta mobilePrice={false} />
                     <Proof />
@@ -39,7 +39,6 @@ export function Delayed() {
                     <Qa />
                 </>
             )}
-            <Comments />
             <Footer />
 
 
