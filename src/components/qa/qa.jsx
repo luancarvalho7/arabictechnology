@@ -8,7 +8,7 @@ export function Qa() {
     {
       id: 1,
       question: "Como vou ter acesso?",
-      answer: "Assim que a sua compra for confirmada, você receberá um e-mail com o seu acesso ao Ebook. Os pagamentos realizados por boleto, podem demorar até 2 dias úteis para serem confirmados."
+      answer: "Assim que a sua compra for confirmada, você receberá um e-mail com o seu acesso ao Ebook."
     },
     {
       id: 2,
@@ -30,11 +30,6 @@ export function Qa() {
       question: "O ebook serve pare pessoas com conhecimentos avançados?",
       answer: "Sim! O ebook oferece estratégias e técnicas raras que podem ajudar até os mais experientes com ChatGPT e IA a elevarem o seu nível de conhecimento, produtividade e eficiência, sem contar os prompts bônus e os jailbreaks exclusivos!"
     },
-    {
-      id: 6,
-      question: "Vou precisar assinar a versão paga do ChatGPT para aplicar os conhecimentos?",
-      answer: "Não, não é necessário. Embora a versão paga possua mais recursos, todas as dicas, estratégias e ensinamentos do ebook podem ser aplicadas na versão gratuita, sem precisar gastar um centavo. Se você quiser entender o lado “Plus” do ChatGPT, você terá acesso a um capítulo bônus explicando as principais diferenças e como abusar de suas ferramentas especiais."
-    }
   ];
 
 
