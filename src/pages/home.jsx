@@ -13,9 +13,7 @@ export function Home() {
             <Cta mobilePrice={false} />
             <Benefits />
             <Method />
-            <Bonus />
             <Guarantee />
-            <Qa />
             <Footer />
         </>)
 }

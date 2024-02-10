@@ -29,12 +29,12 @@ export function Cta({mobilePrice}) {
     return (
         <section className={`ctaSection ${isMobile ? "" : "spacing"}`}>
             <div className="cta">
-                <p>A Inteligência artificial não vai roubar seu emprego, alguém usando vai.</p>
+                <p>Aprende a Programar Tu Destino por Solo $37 No Sobrevivas, Domina.</p>
                 <div className="cta-separator"></div>
                 <div className='cta-price'>
                     <div className="cp-hl" style={{ display: isMobile ? 'none' : 'flex' }}>
-                        <h3>Por apenas 6x de</h3>
-                        <h1>R$14,21</h1>
+                        <h3>Por apenas</h3>
+                        <h1>R$37</h1>
                     </div>
                     <Button />
                 </div>
